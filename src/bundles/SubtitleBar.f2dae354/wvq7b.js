@@ -1,0 +1,2 @@
+/* parcel module id: wvq7b | bundle: SubtitleBar.f2dae354.js | bytes: 214 | separator-after: "," */
+N.register("wvq7b",function(e,t){r(e.exports,"default",()=>l);var o=N("1nubv"),n=N("8lWUo"),a=t&&!t.nodeType&&t,i=a&&e&&!e.nodeType&&e,s=i&&i.exports===a?o.default.Buffer:void 0,l=(s?s.isBuffer:void 0)||n.default})

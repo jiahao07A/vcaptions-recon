@@ -1,0 +1,2 @@
+/* parcel module id: wvq7b | bundle: Main.00175a8f.js | bytes: 214 | separator-after: "," */
+Y.register("wvq7b",function(e,t){G(e.exports,"default",()=>i);var I=Y("1nubv"),l=Y("8lWUo"),n=t&&!t.nodeType&&t,a=n&&e&&!e.nodeType&&e,r=a&&a.exports===n?I.default.Buffer:void 0,i=(r?r.isBuffer:void 0)||l.default})

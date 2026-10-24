@@ -1,0 +1,2 @@
+/* parcel module id: el657 | bundle: sidepanel.65d86198.js | bytes: 449 | separator-after: "," */
+C.register("el657",function(e,I){var t=e.exports&&e.exports.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(e.exports,"__esModule",{value:!0}),e.exports.default=function(e,I){var t=null;if(!e||"string"!=typeof e)return t;var n=(0,l.default)(e),a="function"==typeof I;return n.forEach(function(e){if("declaration"===e.type){var l=e.property,n=e.value;a?I(l,n,e):n&&((t=t||{})[l]=n)}}),t};var l=t(C("e4T5e"))})

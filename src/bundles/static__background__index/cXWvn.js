@@ -1,0 +1,2 @@
+/* parcel module id: cXWvn | bundle: index.js | bytes: 217 | separator-after: "," */
+Gn.register("cXWvn",function(I,G){Z(I.exports,"default",()=>d);var l=Gn("9FBTU"),t=Gn("lxDyr"),e=G&&!G.nodeType&&G,b=e&&I&&!I.nodeType&&I,c=b&&b.exports===e?l.default.Buffer:void 0,d=(c?c.isBuffer:void 0)||t.default})

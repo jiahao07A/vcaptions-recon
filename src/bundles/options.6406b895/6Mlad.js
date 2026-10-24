@@ -1,0 +1,2 @@
+/* parcel module id: 6Mlad | bundle: options.6406b895.js | bytes: 113 | separator-after: "," */
+R.register("6Mlad",function(e,t){a(e.exports,"default",()=>n);var n="object"==typeof L&&L&&L.Object===Object&&L})

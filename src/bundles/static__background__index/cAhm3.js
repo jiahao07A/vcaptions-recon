@@ -1,0 +1,2 @@
+/* parcel module id: cAhm3 | bundle: index.js | bytes: 291 | separator-after: "," */
+Gn.register("cAhm3",function(I,G){Z(I.exports,"default",()=>c);var l=Gn("luiJe"),t=G&&!G.nodeType&&G,e=t&&I&&!I.nodeType&&I,b=e&&e.exports===t&&l.default.process,c=function(){try{var I=e&&e.require&&e.require("util").types;if(I)return I;return b&&b.binding&&b.binding("util")}catch(I){}}()})

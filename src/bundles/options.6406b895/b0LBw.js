@@ -1,0 +1,2 @@
+/* parcel module id: b0LBw | bundle: options.6406b895.js | bytes: 442 | separator-after: "," */
+R.register("b0LBw",function(e,t){a(e.exports,"Fragment",()=>n,e=>n=e),a(e.exports,"jsx",()=>r,e=>r=e),a(e.exports,"jsxs",()=>i,e=>i=e);var n,r,i,o=Symbol.for("react.transitional.element");function s(e,t,n){var a=null;if(void 0!==n&&(a=""+n),void 0!==t.key&&(a=""+t.key),"key"in t)for(var r in n={},t)"key"!==r&&(n[r]=t[r]);else n=t;return{$$typeof:o,type:e,key:a,ref:void 0!==(t=n.ref)?t:null,props:n}}n=Symbol.for("react.fragment"),r=s,i=s})

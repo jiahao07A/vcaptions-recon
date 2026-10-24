@@ -1,0 +1,2 @@
+/* parcel module id: g7bNT | bundle: sidepanel.65d86198.js | bytes: 163 | separator-after: "," */
+C.register("g7bNT",function(e,I){G(e.exports,"default",()=>t);function t(e){var I=Object.create(null);return function(t){return void 0===I[t]&&(I[t]=e(t)),I[t]}}})

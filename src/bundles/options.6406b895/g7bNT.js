@@ -1,0 +1,2 @@
+/* parcel module id: g7bNT | bundle: options.6406b895.js | bytes: 163 | separator-after: "," */
+R.register("g7bNT",function(e,t){a(e.exports,"default",()=>n);function n(e){var t=Object.create(null);return function(n){return void 0===t[n]&&(t[n]=e(n)),t[n]}}})

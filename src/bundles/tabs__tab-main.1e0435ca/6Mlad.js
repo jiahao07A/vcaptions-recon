@@ -1,0 +1,2 @@
+/* parcel module id: 6Mlad | bundle: tab-main.1e0435ca.js | bytes: 113 | separator-after: "," */
+C.register("6Mlad",function(e,I){G(e.exports,"default",()=>t);var t="object"==typeof o&&o&&o.Object===Object&&o})

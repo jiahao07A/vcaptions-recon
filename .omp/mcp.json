@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/src/config/mcp-schema.json",
+  "mcpServers": {
+    "rea": {
+      "type": "stdio",
+      "command": "cmd.exe",
+      "args": ["/d", "/c", "npx", "-y", "rea-agents@6.7.0", "mcp"]
+    }
+  }
+}

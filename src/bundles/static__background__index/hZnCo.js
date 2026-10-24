@@ -1,0 +1,2 @@
+/* parcel module id: hZnCo | bundle: index.js | bytes: 293 | separator-after: "," */
+Gn.register("hZnCo",function(I,G){Z(I.exports,"register",()=>l,I=>l=I),Z(I.exports,"resolve",()=>t,I=>t=I);var l,t,e={};l=function(I){for(var G=Object.keys(I),l=0;l<G.length;l++)e[G[l]]=I[G[l]]},t=function(I){var G=e[I];if(null==G)throw Error("Could not resolve bundle with id "+I);return G}})

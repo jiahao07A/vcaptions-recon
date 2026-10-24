@@ -1,0 +1,2 @@
+/* parcel module id: U13Vh | bundle: SubtitleBar.f2dae354.js | bytes: 442 | separator-after: "," */
+N.register("U13Vh",function(e,t){r(e.exports,"Fragment",()=>o,e=>o=e),r(e.exports,"jsx",()=>n,e=>n=e),r(e.exports,"jsxs",()=>a,e=>a=e);var o,n,a,i=Symbol.for("react.transitional.element");function s(e,t,r){var o=null;if(void 0!==r&&(o=""+r),void 0!==t.key&&(o=""+t.key),"key"in t)for(var n in r={},t)"key"!==n&&(r[n]=t[n]);else r=t;return{$$typeof:i,type:e,key:o,ref:void 0!==(t=r.ref)?t:null,props:r}}o=Symbol.for("react.fragment"),n=s,a=s})

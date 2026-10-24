@@ -1,0 +1,2 @@
+/* parcel module id: U13Vh | bundle: Main.00175a8f.js | bytes: 442 | separator-after: "," */
+Y.register("U13Vh",function(e,t){G(e.exports,"Fragment",()=>I,e=>I=e),G(e.exports,"jsx",()=>l,e=>l=e),G(e.exports,"jsxs",()=>n,e=>n=e);var I,l,n,a=Symbol.for("react.transitional.element");function r(e,t,I){var l=null;if(void 0!==I&&(l=""+I),void 0!==t.key&&(l=""+t.key),"key"in t)for(var n in I={},t)"key"!==n&&(I[n]=t[n]);else I=t;return{$$typeof:a,type:e,key:l,ref:void 0!==(t=I.ref)?t:null,props:I}}I=Symbol.for("react.fragment"),l=r,n=r})

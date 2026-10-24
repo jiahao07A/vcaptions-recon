@@ -1,0 +1,20 @@
+{
+  "bundle": "WebappCS.8b5d7cd6.js",
+  "bundle_sha256": "4c0f22559c8faa473f5a1448999322e3d21bcb95ac286e3e671f485991855e52",
+  "bundle_bytes": 19903,
+  "bom": false,
+  "preamble_sha256": "b4fdd7d05565e11015e4f61b7766d77beed6d79c6d976e0794427e0a37002d7f",
+  "epilogue_sha256": "795cde62b9659fb253e9b17c6ae36ae99f519329ae7170c275b683ded7e52b6d",
+  "module_count": 1,
+  "modules": [
+    {
+      "id": "hEvvs",
+      "file": "hEvvs.js",
+      "bytes": 9523,
+      "body_bytes": 9490,
+      "separator_after": "",
+      "dependencies": [],
+      "sha256": "19368c9749eeb44d7c6eadb626e0ec60a8734ba6eea286412a2cdb4e038a820e"
+    }
+  ]
+}

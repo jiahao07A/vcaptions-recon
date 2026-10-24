@@ -1,0 +1,2 @@
+/* parcel module id: 9FBTU | bundle: index.js | bytes: 182 | separator-after: "," */
+Gn.register("9FBTU",function(I,G){Z(I.exports,"default",()=>e);var l=Gn("luiJe"),t="object"==typeof self&&self&&self.Object===Object&&self,e=l.default||t||Function("return this")()})

@@ -1,0 +1,48 @@
+{
+  "name": "vcaptions-reconstruction",
+  "version": "2.4.6",
+  "private": true,
+  "description": "Maintainable reconstruction of the vCaptions browser extension (Chrome MV3), recovered from the published 2.4.6 bundle.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19"
+  },
+  "scripts": {
+    "fetch-baseline": "node tools/fetch-baseline.mjs",
+    "split": "node tools/reconstruct.mjs",
+    "verify": "node tools/reconstruct.mjs --verify",
+    "format": "node tools/format.mjs",
+    "index": "node tools/index-symbols.mjs",
+    "adopt": "node tools/adopt.mjs",
+    "build": "node tools/build.mjs",
+    "build:clean": "node tools/build.mjs --clean",
+    "package": "node tools/package.mjs",
+    "package:test": "node tools/package.mjs --suffix test.1",
+    "check": "node tools/check.mjs",
+    "verify:browser": "node tools/browser-verify.mjs",
+    "test": "node tests/guard.check.mjs && node tests/guard-structure.check.mjs && node tests/chrome-env.check.mjs && node tests/background.smoke.mjs && node tests/bundles.load.mjs && node tests/overlay.check.mjs && node tests/overlay-edge.check.mjs && node tests/edit-safety.check.mjs && node tests/validator.check.mjs && node tests/rule-coverage.check.mjs && node tests/check-hardening.check.mjs && node tests/round2-repairs.check.mjs && node tests/package.check.mjs && node tests/consistency.check.mjs && node tests/doc-boundary.check.mjs",
+    "test:guard": "node tests/guard.check.mjs",
+    "test:guard-structure": "node tests/guard-structure.check.mjs",
+    "test:chrome-env": "node tests/chrome-env.check.mjs",
+    "test:background": "node tests/background.smoke.mjs",
+    "test:bundles": "node tests/bundles.load.mjs",
+    "test:overlay": "node tests/overlay.check.mjs",
+    "test:overlay-edge": "node tests/overlay-edge.check.mjs",
+    "test:edit-safety": "node tests/edit-safety.check.mjs",
+    "test:validator": "node tests/validator.check.mjs",
+    "test:rule-coverage": "node tests/rule-coverage.check.mjs",
+    "test:check-hardening": "node tests/check-hardening.check.mjs",
+    "test:round2": "node tests/round2-repairs.check.mjs",
+    "test:package": "node tests/package.check.mjs",
+    "test:consistency": "node tests/consistency.check.mjs",
+    "test:doc-boundary": "node tests/doc-boundary.check.mjs",
+    "test:regressions": "node tests/smoke-regression.check.mjs && node tests/browser-verify.check.mjs",
+    "audit": "node tools/audit.mjs",
+    "release": "npm run build:clean && npm run check && npm run test && npm run package && npm run verify:browser",
+    "all": "npm run verify && npm run build && npm run format && npm run audit && npm run index && npm run check && npm run test",
+    "ci": "npm run verify && npm run build && npm run check && npm run test"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

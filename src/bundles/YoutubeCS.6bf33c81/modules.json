@@ -1,0 +1,20 @@
+{
+  "bundle": "YoutubeCS.6bf33c81.js",
+  "bundle_sha256": "9fbb0b768d681bafcbaae95add5aefae7de2c5fa93569645df55db25c01695fa",
+  "bundle_bytes": 23753,
+  "bom": false,
+  "preamble_sha256": "cc47cdf307c9485206a75a28a86a177854df6d56f984bae1e27bcf6e418afef7",
+  "epilogue_sha256": "8770922d0c85cee77733efbbe153b9830f9bd3d5802e742c5e2d7f8c87c4e640",
+  "module_count": 1,
+  "modules": [
+    {
+      "id": "cNTJc",
+      "file": "cNTJc.js",
+      "bytes": 9523,
+      "body_bytes": 9490,
+      "separator_after": "",
+      "dependencies": [],
+      "sha256": "16aca68dc8423b3e786fe263566f50677aa6468ffb42f5561384321a955bc819"
+    }
+  ]
+}

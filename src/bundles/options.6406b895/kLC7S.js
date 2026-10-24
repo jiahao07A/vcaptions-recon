@@ -1,0 +1,2 @@
+/* parcel module id: kLC7S | bundle: options.6406b895.js | bytes: 261 | separator-after: "," */
+R.register("kLC7S",function(e,t){(function e(){if("undefined"!=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__&&"function"==typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE)try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(e)}catch(e){console.error(e)}})(),e.exports=R("9E6nD")})

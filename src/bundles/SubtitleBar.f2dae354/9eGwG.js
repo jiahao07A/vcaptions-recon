@@ -1,0 +1,2 @@
+/* parcel module id: 9eGwG | bundle: SubtitleBar.f2dae354.js | bytes: 113 | separator-after: "," */
+N.register("9eGwG",function(e,t){r(e.exports,"default",()=>o);var o="object"==typeof D&&D&&D.Object===Object&&D})

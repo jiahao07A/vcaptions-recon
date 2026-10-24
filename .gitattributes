@@ -1,0 +1,8 @@
+﻿# Files under src/bundles/ are byte-exact Parcel output. Any end-of-line or
+# encoding normalisation would change their bytes and break `npm run verify`,
+# which compares against the recorded digests. Mark them binary so git stores
+# and checks them out verbatim.
+src/bundles/** -text -diff
+
+# The same applies to the recorded module manifests and the baseline archive.
+*.crx binary

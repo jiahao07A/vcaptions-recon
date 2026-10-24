@@ -1,0 +1,29 @@
+# Build output — regenerate with `npm run build`
+dist/
+release/
+build-report.json
+.dist-staging/
+.dist-retired/
+
+# Dependencies
+node_modules/
+
+# Derived readability view — regenerate with `npm run format`.
+# src/bundles/ is the byte-exact source of truth; src/overlay/ holds edits.
+src/readable/
+
+# Original published artifact — NOT redistributed.
+# These bytes belong to the extension's author. Keeping them out of a public
+# repository avoids republication; run `npm run fetch-baseline` to restore them
+# from the Chrome Web Store before building or verifying.
+assets/baseline/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Keep versioned:
+#   src/bundles/      byte-exact split modules (our reconstruction)
+#   src/overlay/      adopted, editable modules (real source changes live here)
+!src/overlay/

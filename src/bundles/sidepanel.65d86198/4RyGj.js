@@ -1,0 +1,2 @@
+/* parcel module id: 4RyGj | bundle: sidepanel.65d86198.js | bytes: 214 | separator-after: "," */
+C.register("4RyGj",function(e,I){G(e.exports,"default",()=>c);var t=C("bThRn"),l=C("fM208"),n=I&&!I.nodeType&&I,a=n&&e&&!e.nodeType&&e,i=a&&a.exports===n?t.default.Buffer:void 0,c=(i?i.isBuffer:void 0)||l.default})

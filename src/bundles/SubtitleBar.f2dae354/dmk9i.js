@@ -1,0 +1,2 @@
+/* parcel module id: dmk9i | bundle: SubtitleBar.f2dae354.js | bytes: 289 | separator-after: "," */
+N.register("dmk9i",function(e,t){r(e.exports,"default",()=>s);var o=N("9eGwG"),n=t&&!t.nodeType&&t,a=n&&e&&!e.nodeType&&e,i=a&&a.exports===n&&o.default.process,s=function(){try{var e=a&&a.require&&a.require("util").types;if(e)return e;return i&&i.binding&&i.binding("util")}catch(e){}}()})

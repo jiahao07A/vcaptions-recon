@@ -1,0 +1,2 @@
+/* parcel module id: 1nubv | bundle: SubtitleBar.f2dae354.js | bytes: 180 | separator-after: "," */
+N.register("1nubv",function(e,t){r(e.exports,"default",()=>a);var o=N("9eGwG"),n="object"==typeof self&&self&&self.Object===Object&&self,a=o.default||n||Function("return this")()})

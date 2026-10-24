@@ -1,0 +1,2 @@
+/* parcel module id: aOhki | bundle: options.6406b895.js | bytes: 289 | separator-after: "" */
+R.register("aOhki",function(e,t){a(e.exports,"default",()=>s);var n=R("6Mlad"),r=t&&!t.nodeType&&t,i=r&&e&&!e.nodeType&&e,o=i&&i.exports===r&&n.default.process,s=function(){try{var e=i&&i.require&&i.require("util").types;if(e)return e;return o&&o.binding&&o.binding("util")}catch(e){}}()})

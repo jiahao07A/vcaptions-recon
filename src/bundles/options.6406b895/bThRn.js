@@ -1,0 +1,2 @@
+/* parcel module id: bThRn | bundle: options.6406b895.js | bytes: 180 | separator-after: "," */
+R.register("bThRn",function(e,t){a(e.exports,"default",()=>i);var n=R("6Mlad"),r="object"==typeof self&&self&&self.Object===Object&&self,i=n.default||r||Function("return this")()})

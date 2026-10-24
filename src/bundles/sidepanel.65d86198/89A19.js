@@ -1,0 +1,2 @@
+/* parcel module id: 89A19 | bundle: sidepanel.65d86198.js | bytes: 372 | separator-after: "," */
+C.register("89A19",function(e,I){var t,l,n;e.exports=(t=C("iq4P2"),C("5oat9"),t.mode.OFB=(n=(l=t.lib.BlockCipherMode.extend()).Encryptor=l.extend({processBlock:function(e,I){var t=this._cipher,l=t.blockSize,n=this._iv,a=this._keystream;n&&(a=this._keystream=n.slice(0),this._iv=void 0),t.encryptBlock(a,0);for(var i=0;i<l;i++)e[I+i]^=a[i]}}),l.Decryptor=n,l),t.mode.OFB)})

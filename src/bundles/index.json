@@ -1,0 +1,98 @@
+{
+  "extension": "vCaptions",
+  "baseline_version": "2.4.6",
+  "baseline_dir": "assets\\baseline\\extension-v2.4.6",
+  "generated_by": "tools/reconstruct.mjs",
+  "bundles": [
+    {
+      "role": "background",
+      "baseline_file": "static/background/index.js",
+      "baseline_sha256": "0b13b37594fd946c5614fbf218552a3374ee7b76c2239ccf2db6ae96d3f82bfc",
+      "baseline_bytes": 3209598,
+      "split_dir": "src/bundles/static__background__index",
+      "module_count": 16,
+      "reassembly_verified": true
+    },
+    {
+      "role": "content-script:main",
+      "baseline_file": "MainCS.277dcde3.js",
+      "baseline_sha256": "1e369e3ef8b6ad9c48e20cb87d8e21f2c628498cd76a8dde55f206a11d3fd3a7",
+      "baseline_bytes": 58113,
+      "split_dir": "src/bundles/MainCS.277dcde3",
+      "module_count": 1,
+      "reassembly_verified": true
+    },
+    {
+      "role": "content-script:iframe",
+      "baseline_file": "IFrameCS.26275720.js",
+      "baseline_sha256": "271798c6cddbd247632abdc9360555629200d768e5efbc5c3b175fbada95f9b4",
+      "baseline_bytes": 86581,
+      "split_dir": "src/bundles/IFrameCS.26275720",
+      "module_count": 6,
+      "reassembly_verified": true
+    },
+    {
+      "role": "content-script:youtube",
+      "baseline_file": "YoutubeCS.6bf33c81.js",
+      "baseline_sha256": "9fbb0b768d681bafcbaae95add5aefae7de2c5fa93569645df55db25c01695fa",
+      "baseline_bytes": 23753,
+      "split_dir": "src/bundles/YoutubeCS.6bf33c81",
+      "module_count": 1,
+      "reassembly_verified": true
+    },
+    {
+      "role": "content-script:webapp",
+      "baseline_file": "WebappCS.8b5d7cd6.js",
+      "baseline_sha256": "4c0f22559c8faa473f5a1448999322e3d21bcb95ac286e3e671f485991855e52",
+      "baseline_bytes": 19903,
+      "split_dir": "src/bundles/WebappCS.8b5d7cd6",
+      "module_count": 1,
+      "reassembly_verified": true
+    },
+    {
+      "role": "content-script:app",
+      "baseline_file": "Main.00175a8f.js",
+      "baseline_sha256": "fd6557596e95f84996bbf1e9e1b0644c87d060b3aad2de6ebeaa05c8435c56bd",
+      "baseline_bytes": 4744475,
+      "split_dir": "src/bundles/Main.00175a8f",
+      "module_count": 60,
+      "reassembly_verified": true
+    },
+    {
+      "role": "content-script:subtitle-bar",
+      "baseline_file": "SubtitleBar.f2dae354.js",
+      "baseline_sha256": "68f8c6a837839ccb127d08c47c9da71fb9b03bd2c589f388e92add673946e3de",
+      "baseline_bytes": 820195,
+      "split_dir": "src/bundles/SubtitleBar.f2dae354",
+      "module_count": 16,
+      "reassembly_verified": true
+    },
+    {
+      "role": "sidepanel",
+      "baseline_file": "sidepanel.65d86198.js",
+      "baseline_sha256": "4c38a03b50b777c1b42b92dec03e659bd06850a922f13b701249586669a51ee9",
+      "baseline_bytes": 4534425,
+      "split_dir": "src/bundles/sidepanel.65d86198",
+      "module_count": 60,
+      "reassembly_verified": true
+    },
+    {
+      "role": "options",
+      "baseline_file": "options.6406b895.js",
+      "baseline_sha256": "dd4dcf668c798ed936c43a2d5a97c760cc84c7a89eb03ae8c9e5db515326f1ae",
+      "baseline_bytes": 871699,
+      "split_dir": "src/bundles/options.6406b895",
+      "module_count": 19,
+      "reassembly_verified": true
+    },
+    {
+      "role": "tab",
+      "baseline_file": "tabs/tab-main.1e0435ca.js",
+      "baseline_sha256": "d4995815d047ee0a884fcdd6ec11b6386982711b32137c94649fd037f6c85677",
+      "baseline_bytes": 4534418,
+      "split_dir": "src/bundles/tabs__tab-main.1e0435ca",
+      "module_count": 60,
+      "reassembly_verified": true
+    }
+  ]
+}

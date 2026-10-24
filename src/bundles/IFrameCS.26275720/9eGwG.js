@@ -1,0 +1,2 @@
+/* parcel module id: 9eGwG | bundle: IFrameCS.26275720.js | bytes: 113 | separator-after: "," */
+g.register("9eGwG",function(e,t){i(e.exports,"default",()=>r);var r="object"==typeof d&&d&&d.Object===Object&&d})

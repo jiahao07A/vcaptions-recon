@@ -1,0 +1,2 @@
+/* parcel module id: 6Mlad | bundle: sidepanel.65d86198.js | bytes: 113 | separator-after: "," */
+C.register("6Mlad",function(e,I){G(e.exports,"default",()=>t);var t="object"==typeof o&&o&&o.Object===Object&&o})

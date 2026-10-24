@@ -1,0 +1,2 @@
+/* parcel module id: 4RyGj | bundle: options.6406b895.js | bytes: 214 | separator-after: "," */
+R.register("4RyGj",function(e,t){a(e.exports,"default",()=>l);var n=R("bThRn"),r=R("fM208"),i=t&&!t.nodeType&&t,o=i&&e&&!e.nodeType&&e,s=o&&o.exports===i?n.default.Buffer:void 0,l=(s?s.isBuffer:void 0)||r.default})

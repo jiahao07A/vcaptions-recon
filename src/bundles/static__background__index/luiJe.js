@@ -1,0 +1,2 @@
+/* parcel module id: luiJe | bundle: index.js | bytes: 118 | separator-after: "," */
+Gn.register("luiJe",function(I,G){Z(I.exports,"default",()=>l);var l="object"==typeof Gd&&Gd&&Gd.Object===Object&&Gd})

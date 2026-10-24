@@ -1,0 +1,2 @@
+/* parcel module id: jZrc2 | bundle: index.js | bytes: 393 | separator-after: "" */
+Gn.register("jZrc2",function(I,G){Z(I.exports,"getBundleURL",()=>l,I=>l=I);var l,t={};l=function(I){var G=t[I];return G||(G=function(){try{throw Error()}catch(G){var I=(""+G.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);if(I)return(""+I[2]).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/,"$1")+"/"}return"/"}(),t[I]=G),G}})

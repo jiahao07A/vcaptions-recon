@@ -1,0 +1,65 @@
+{
+  "bundle": "IFrameCS.26275720.js",
+  "bundle_sha256": "271798c6cddbd247632abdc9360555629200d768e5efbc5c3b175fbada95f9b4",
+  "bundle_bytes": 86581,
+  "bom": false,
+  "preamble_sha256": "bff0c53739f20a6bd22e221c1699746d8c787b3bfd4e89dff9548ccb3700596c",
+  "epilogue_sha256": "c9232eaf33d48267443543c4fc29f0bcc9276d0c61b66f92c72b0aea18b63d1f",
+  "module_count": 6,
+  "modules": [
+    {
+      "id": "hEvvs",
+      "file": "hEvvs.js",
+      "bytes": 9523,
+      "body_bytes": 9490,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "a8743959577d40aabb5fa4e2e0cea2f5d1ec533212a898da227684d43228acf5"
+    },
+    {
+      "id": "wvq7b",
+      "file": "wvq7b.js",
+      "bytes": 214,
+      "body_bytes": 181,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "236fedd778cd9fadbb1ea5c72410b4029c84f46e6b4ca8a2e563b41d051fa46b"
+    },
+    {
+      "id": "1nubv",
+      "file": "1nubv.js",
+      "bytes": 180,
+      "body_bytes": 147,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "68ca356b884bfd2a3de3b8c9ac9a4a194959f95814be606fcedbb357983904d7"
+    },
+    {
+      "id": "9eGwG",
+      "file": "9eGwG.js",
+      "bytes": 113,
+      "body_bytes": 80,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "fa5c8aaff33a9114b0c92dfcede70dcbde5e802df368d702b2ad3d964f92db2d"
+    },
+    {
+      "id": "8lWUo",
+      "file": "8lWUo.js",
+      "bytes": 90,
+      "body_bytes": 57,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "4c652a6314d31316d8899248a888bdd28ccbd5f9f6a4f62fd19d14dbc2c3edfa"
+    },
+    {
+      "id": "dmk9i",
+      "file": "dmk9i.js",
+      "bytes": 289,
+      "body_bytes": 256,
+      "separator_after": "",
+      "dependencies": [],
+      "sha256": "0ccfe238b86a56955eeacce66dce64cde6277bd61de2b5221de4f834b73e1890"
+    }
+  ]
+}

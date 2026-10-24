@@ -1,0 +1,484 @@
+{
+  "bundle": "SubtitleBar.f2dae354.js",
+  "bundle_sha256": "68f8c6a837839ccb127d08c47c9da71fb9b03bd2c589f388e92add673946e3de",
+  "bundle_bytes": 820195,
+  "bom": false,
+  "preamble_sha256": "3c2626385f22fdd66efcb588dd0cb1b20c3b78e88d91e6a717cdf8bf59d0df30",
+  "epilogue_sha256": "23217b63bfb82079e7e7d1e6702d35fdb0b4a81f45059d56ce3d2e62d7b56daa",
+  "module_count": 16,
+  "modules": [
+    {
+      "id": "U13Vh",
+      "file": "U13Vh.js",
+      "bytes": 442,
+      "body_bytes": 409,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "5ef6d6408b4e3548515cb553ccf5ca7e47706858a582ccc3dabf7bc179e0f14e"
+    },
+    {
+      "id": "7ELH8",
+      "file": "7ELH8.js",
+      "bytes": 8706,
+      "body_bytes": 8673,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "83790e2456c72e7732a5371dffb1132033b96e3cf4e394fdc6bd62a6239109da"
+    },
+    {
+      "id": "l1F5h",
+      "file": "l1F5h.js",
+      "bytes": 2393,
+      "body_bytes": 2360,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "3acd8b3ec7c918e3a40595b9220be1164c3f0703bf62cad590c1ba478e0f56c1"
+    },
+    {
+      "id": "770Tx",
+      "file": "770Tx.js",
+      "bytes": 167671,
+      "body_bytes": 167638,
+      "separator_after": ",",
+      "dependencies": [
+        {
+          "request": "acceptCharset",
+          "id": "accept-charset"
+        },
+        {
+          "request": "htmlFor",
+          "id": "for"
+        },
+        {
+          "request": "httpEquiv",
+          "id": "http-equiv"
+        },
+        {
+          "request": "crossOrigin",
+          "id": "crossorigin"
+        },
+        {
+          "request": "accentHeight",
+          "id": "accent-height"
+        },
+        {
+          "request": "alignmentBaseline",
+          "id": "alignment-baseline"
+        },
+        {
+          "request": "arabicForm",
+          "id": "arabic-form"
+        },
+        {
+          "request": "baselineShift",
+          "id": "baseline-shift"
+        },
+        {
+          "request": "capHeight",
+          "id": "cap-height"
+        },
+        {
+          "request": "clipPath",
+          "id": "clip-path"
+        },
+        {
+          "request": "clipRule",
+          "id": "clip-rule"
+        },
+        {
+          "request": "colorInterpolation",
+          "id": "color-interpolation"
+        },
+        {
+          "request": "colorInterpolationFilters",
+          "id": "color-interpolation-filters"
+        },
+        {
+          "request": "colorProfile",
+          "id": "color-profile"
+        },
+        {
+          "request": "colorRendering",
+          "id": "color-rendering"
+        },
+        {
+          "request": "dominantBaseline",
+          "id": "dominant-baseline"
+        },
+        {
+          "request": "enableBackground",
+          "id": "enable-background"
+        },
+        {
+          "request": "fillOpacity",
+          "id": "fill-opacity"
+        },
+        {
+          "request": "fillRule",
+          "id": "fill-rule"
+        },
+        {
+          "request": "floodColor",
+          "id": "flood-color"
+        },
+        {
+          "request": "floodOpacity",
+          "id": "flood-opacity"
+        },
+        {
+          "request": "fontFamily",
+          "id": "font-family"
+        },
+        {
+          "request": "fontSize",
+          "id": "font-size"
+        },
+        {
+          "request": "fontSizeAdjust",
+          "id": "font-size-adjust"
+        },
+        {
+          "request": "fontStretch",
+          "id": "font-stretch"
+        },
+        {
+          "request": "fontStyle",
+          "id": "font-style"
+        },
+        {
+          "request": "fontVariant",
+          "id": "font-variant"
+        },
+        {
+          "request": "fontWeight",
+          "id": "font-weight"
+        },
+        {
+          "request": "glyphName",
+          "id": "glyph-name"
+        },
+        {
+          "request": "glyphOrientationHorizontal",
+          "id": "glyph-orientation-horizontal"
+        },
+        {
+          "request": "glyphOrientationVertical",
+          "id": "glyph-orientation-vertical"
+        },
+        {
+          "request": "horizAdvX",
+          "id": "horiz-adv-x"
+        },
+        {
+          "request": "horizOriginX",
+          "id": "horiz-origin-x"
+        },
+        {
+          "request": "imageRendering",
+          "id": "image-rendering"
+        },
+        {
+          "request": "letterSpacing",
+          "id": "letter-spacing"
+        },
+        {
+          "request": "lightingColor",
+          "id": "lighting-color"
+        },
+        {
+          "request": "markerEnd",
+          "id": "marker-end"
+        },
+        {
+          "request": "markerMid",
+          "id": "marker-mid"
+        },
+        {
+          "request": "markerStart",
+          "id": "marker-start"
+        },
+        {
+          "request": "overlinePosition",
+          "id": "overline-position"
+        },
+        {
+          "request": "overlineThickness",
+          "id": "overline-thickness"
+        },
+        {
+          "request": "paintOrder",
+          "id": "paint-order"
+        },
+        {
+          "request": "panose-1",
+          "id": "panose-1"
+        },
+        {
+          "request": "pointerEvents",
+          "id": "pointer-events"
+        },
+        {
+          "request": "renderingIntent",
+          "id": "rendering-intent"
+        },
+        {
+          "request": "shapeRendering",
+          "id": "shape-rendering"
+        },
+        {
+          "request": "stopColor",
+          "id": "stop-color"
+        },
+        {
+          "request": "stopOpacity",
+          "id": "stop-opacity"
+        },
+        {
+          "request": "strikethroughPosition",
+          "id": "strikethrough-position"
+        },
+        {
+          "request": "strikethroughThickness",
+          "id": "strikethrough-thickness"
+        },
+        {
+          "request": "strokeDasharray",
+          "id": "stroke-dasharray"
+        },
+        {
+          "request": "strokeDashoffset",
+          "id": "stroke-dashoffset"
+        },
+        {
+          "request": "strokeLinecap",
+          "id": "stroke-linecap"
+        },
+        {
+          "request": "strokeLinejoin",
+          "id": "stroke-linejoin"
+        },
+        {
+          "request": "strokeMiterlimit",
+          "id": "stroke-miterlimit"
+        },
+        {
+          "request": "strokeOpacity",
+          "id": "stroke-opacity"
+        },
+        {
+          "request": "strokeWidth",
+          "id": "stroke-width"
+        },
+        {
+          "request": "textAnchor",
+          "id": "text-anchor"
+        },
+        {
+          "request": "textDecoration",
+          "id": "text-decoration"
+        },
+        {
+          "request": "textRendering",
+          "id": "text-rendering"
+        },
+        {
+          "request": "transformOrigin",
+          "id": "transform-origin"
+        },
+        {
+          "request": "underlinePosition",
+          "id": "underline-position"
+        },
+        {
+          "request": "underlineThickness",
+          "id": "underline-thickness"
+        },
+        {
+          "request": "unicodeBidi",
+          "id": "unicode-bidi"
+        },
+        {
+          "request": "unicodeRange",
+          "id": "unicode-range"
+        },
+        {
+          "request": "unitsPerEm",
+          "id": "units-per-em"
+        },
+        {
+          "request": "vAlphabetic",
+          "id": "v-alphabetic"
+        },
+        {
+          "request": "vHanging",
+          "id": "v-hanging"
+        },
+        {
+          "request": "vIdeographic",
+          "id": "v-ideographic"
+        },
+        {
+          "request": "vMathematical",
+          "id": "v-mathematical"
+        },
+        {
+          "request": "vectorEffect",
+          "id": "vector-effect"
+        },
+        {
+          "request": "vertAdvY",
+          "id": "vert-adv-y"
+        },
+        {
+          "request": "vertOriginX",
+          "id": "vert-origin-x"
+        },
+        {
+          "request": "vertOriginY",
+          "id": "vert-origin-y"
+        },
+        {
+          "request": "wordSpacing",
+          "id": "word-spacing"
+        },
+        {
+          "request": "writingMode",
+          "id": "writing-mode"
+        },
+        {
+          "request": "xmlnsXlink",
+          "id": "xmlns:xlink"
+        },
+        {
+          "request": "xHeight",
+          "id": "x-height"
+        },
+        {
+          "request": "mouseout",
+          "id": "mouseover"
+        },
+        {
+          "request": "mouseout",
+          "id": "mouseover"
+        },
+        {
+          "request": "pointerout",
+          "id": "pointerover"
+        },
+        {
+          "request": "pointerout",
+          "id": "pointerover"
+        }
+      ],
+      "sha256": "a5af50cb5863b83a3b4281943a5fe53ffccf517bc04761b3685b3291eb5dd651"
+    },
+    {
+      "id": "cqYZi",
+      "file": "cqYZi.js",
+      "bytes": 55,
+      "body_bytes": 22,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "314c203260b2181a1aeb5323dd5fe556d06f6933d96ed8f36048afc8fb107824"
+    },
+    {
+      "id": "35oVN",
+      "file": "35oVN.js",
+      "bytes": 3882,
+      "body_bytes": 3849,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "042ad2b8c4f342a0cb6df59c2e8e163c19089dad751aa0f8fd968f2faf00d9b4"
+    },
+    {
+      "id": "bR8cm",
+      "file": "bR8cm.js",
+      "bytes": 55,
+      "body_bytes": 22,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "a9cbe438b4f3a4825c290e0dbfb552fe079fcb361eae1d76999b883828a8753c"
+    },
+    {
+      "id": "aGqS9",
+      "file": "aGqS9.js",
+      "bytes": 261,
+      "body_bytes": 228,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "3c88e7a482213ccfdcac619c004029fd567143a1286dca371f1b6346024099fb"
+    },
+    {
+      "id": "hbODE",
+      "file": "hbODE.js",
+      "bytes": 3703,
+      "body_bytes": 3670,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "fac4aae3c890a1a8c697cf5cbe525059b6f538a470b65bd6baec2aed72580331"
+    },
+    {
+      "id": "hEvvs",
+      "file": "hEvvs.js",
+      "bytes": 9523,
+      "body_bytes": 9490,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "7ba45a2852a5f57031f46f23e42ca25b59c565cec6048c47d61019907ab1698d"
+    },
+    {
+      "id": "wvq7b",
+      "file": "wvq7b.js",
+      "bytes": 214,
+      "body_bytes": 181,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "227fdfa0d6854ad6adad52a8bb582f90330e1a8d14758b301c13cf461822c23a"
+    },
+    {
+      "id": "1nubv",
+      "file": "1nubv.js",
+      "bytes": 180,
+      "body_bytes": 147,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "ee35e14642d1c1a690e4bdac32c7f8ee456f809ee78b554d75427305974cb5dd"
+    },
+    {
+      "id": "9eGwG",
+      "file": "9eGwG.js",
+      "bytes": 113,
+      "body_bytes": 80,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "ca38009e5ee86ababadcad2f1e3434cf88df33dd706afa5ff024fcaa56739cce"
+    },
+    {
+      "id": "8lWUo",
+      "file": "8lWUo.js",
+      "bytes": 90,
+      "body_bytes": 57,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "bc92fb4d20fbfeaa18e5e38c0029bfc8b7f0450d1c77dec38e8302b9ba7ef6c0"
+    },
+    {
+      "id": "dmk9i",
+      "file": "dmk9i.js",
+      "bytes": 289,
+      "body_bytes": 256,
+      "separator_after": ",",
+      "dependencies": [],
+      "sha256": "39d1739fadb00c7e8e08749b6c2664b05b80c15c4d4ac3f1e106a305e015d0f8"
+    },
+    {
+      "id": "eNZ9W",
+      "file": "eNZ9W.js",
+      "bytes": 780,
+      "body_bytes": 747,
+      "separator_after": "",
+      "dependencies": [],
+      "sha256": "69fd681edec7d7d3876cd99b2a42360a302307880119638be7f2a06f96941447"
+    }
+  ]
+}

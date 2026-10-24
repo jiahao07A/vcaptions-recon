@@ -1,0 +1,999 @@
+{
+  "generated_at": "2026-10-21T12:38:42.667Z",
+  "generated_by": "tools/audit.mjs",
+  "source": "dist/ (reassembled from assets/baseline/extension-v2.4.6)",
+  "bundles": {
+    "background": {
+      "file": "static/background/index.js",
+      "bytes": 3209598
+    },
+    "content_main": {
+      "file": "MainCS.277dcde3.js",
+      "bytes": 58113
+    },
+    "content_iframe": {
+      "file": "IFrameCS.26275720.js",
+      "bytes": 86581
+    },
+    "content_youtube": {
+      "file": "YoutubeCS.6bf33c81.js",
+      "bytes": 23753
+    },
+    "content_webapp": {
+      "file": "WebappCS.8b5d7cd6.js",
+      "bytes": 19903
+    },
+    "content_app": {
+      "file": "Main.00175a8f.js",
+      "bytes": 4744475
+    },
+    "content_subtitle_bar": {
+      "file": "SubtitleBar.f2dae354.js",
+      "bytes": 820195
+    },
+    "sidepanel": {
+      "file": "sidepanel.65d86198.js",
+      "bytes": 4534425
+    },
+    "options": {
+      "file": "options.6406b895.js",
+      "bytes": 871699
+    },
+    "tab": {
+      "file": "tabs/tab-main.1e0435ca.js",
+      "bytes": 4534418
+    }
+  },
+  "protocol": {
+    "background_handlers": [
+      "ADD_NOTE",
+      "ADD_SUBTITLE",
+      "ADD_TRANSLATE_TASKS",
+      "APP_HEARTBEAT",
+      "APP_NOTIFY_SUBTITLE_BAR_CHAPTER_STATE",
+      "BACKUP_VIDEO_DATA",
+      "BAR_JUMP_TO_CHAPTER",
+      "BAR_JUMP_TO_TIME",
+      "BATCH_DELETE_NOTES",
+      "BILIBILI_MODE_CHANGED",
+      "CANCEL_CHAT_REQUEST",
+      "CLEAR_VIDEO_DATA",
+      "CLONE_SUBTITLE",
+      "CLOSE_SIDE_PANEL",
+      "CLOSE_TAB",
+      "CREATE_CHAPTER_SESSION",
+      "CREATE_CHAT_SESSION",
+      "CREATE_FINETUNE_SESSION",
+      "CREATE_TRANSCRIPTION",
+      "CREATE_TRANSLATE_SESSION",
+      "CS_REQUEST_UPDATE_CURRENT_TIME",
+      "CS_REQUEST_UPDATE_DISPLAY",
+      "CS_REQUEST_UPDATE_FOLD",
+      "CS_REQUEST_UPDATE_PLAY_NOTE_STATUS",
+      "DELETE_CHAPTER",
+      "DELETE_CHAPTER_SESSION",
+      "DELETE_CHAT_SESSION",
+      "DELETE_FINETUNE_SESSION",
+      "DELETE_NOTE",
+      "DELETE_NOTE_TAG",
+      "DELETE_SUBTITLE",
+      "DELETE_TRANSCRIPTION_SESSION",
+      "DELETE_TRANSLATE_SESSION",
+      "FETCH_AND_SUPPLEMENT_SUBTITLES",
+      "GET_CHAPTER_INFO",
+      "GET_CHAPTER_SESSION_BY_KEY",
+      "GET_CHAT_SESSION",
+      "GET_CHAT_SESSIONS_BY_TID_AND_VID",
+      "GET_CS_ID",
+      "GET_FINETUNE_SESSION",
+      "GET_FINETUNE_SESSION_BY_KEY",
+      "GET_NEXT_AVAILABLE_SUFFIX",
+      "GET_NOTE_INFO",
+      "GET_SUBTITLE_BAR_STATE",
+      "GET_SUBTITLE_CONTENT",
+      "GET_SUBTITLE_INFO",
+      "GET_TRANSCRIPTION_SESSION",
+      "GET_TRANSCRIPTION_SESSION_LOCAL",
+      "GET_TRANSLATE_SESSION",
+      "GET_TRANSLATE_SESSION_BY_KEY",
+      "GET_VIDEO_INFO",
+      "NOTIFY_SUBTITLE_BAR_HIDE",
+      "NOTIFY_SUBTITLE_BAR_LANGUAGE_CHANGED",
+      "OPEN_SIDE_PANEL",
+      "PAUSE_CHAPTER_SESSION",
+      "PAUSE_FINETUNE_SESSION",
+      "PAUSE_TRANSLATE_SESSION",
+      "REFRESH_CHAPTER_INFO",
+      "REFRESH_SUBTITLE_CONTENT",
+      "REFRESH_SUBTITLE_INFO",
+      "REFRESH_TAB",
+      "REFRESH_VIDEO_INFO",
+      "REFRESH_VID_INFO",
+      "RENAME_NOTE_TAG",
+      "REQUEST_MOUNT_SUBTITLE_BAR",
+      "REQUEST_TOGGLE_DISPLAY",
+      "RESTART_TRANSLATION",
+      "RESTORE_VIDEO_DATA",
+      "RESUME_CHAPTER_SESSION",
+      "RESUME_FINETUNE_SESSION",
+      "RESUME_TRANSLATE_SESSION",
+      "RETRY_FAILED_CHAPTER_TASKS",
+      "RETRY_FAILED_FINETUNE_TASKS",
+      "RETRY_FAILED_TRANSLATE_TASKS",
+      "RETRY_TRANSCRIPTION",
+      "SAVE_SUBTITLE_BAR_CONFIG",
+      "SAVE_SUBTITLE_BAR_POSITION",
+      "SEND_CHAT_MESSAGE",
+      "SET_CS_ID",
+      "SET_SUBTITLE_BAR_VISIBLE",
+      "SHOW_FLAG",
+      "STORAGE_DELETE",
+      "STORAGE_GET",
+      "STORAGE_KEYS",
+      "STORAGE_REFRESH",
+      "STORAGE_SET",
+      "STORE_CHAPTER_INFO",
+      "STORE_SUBTITLE_CONTENT",
+      "STORE_VIDEO_INFO",
+      "TRACK_ANALYTICS_EVENT",
+      "TRANSLATE_CHAPTER",
+      "UPDATE_CHAPTER_SELECTED",
+      "UPDATE_CHAT_SESSION_TITLE",
+      "UPDATE_NOTE",
+      "UPDATE_SUBTITLE_SELECTED",
+      "UPLOAD_SUBTITLE",
+      "WEBSITE_CONFIG_UPDATED"
+    ],
+    "background_handler_count": 97,
+    "ui_handlers": [
+      "APP_GET_SUBTITLE_BAR_CHAPTER_STATE",
+      "APP_GET_SUBTITLE_BAR_STATE",
+      "APP_JUMP_TO_CHAPTER",
+      "APP_JUMP_TO_TIME",
+      "APP_NOTIFY_SUBTITLE_BAR_HIDE",
+      "APP_REFRESH_VID_INFO",
+      "APP_SET_CS_ID",
+      "BAR_SET_CHAPTER_STATE",
+      "BILIBILI_MODE_CHANGED",
+      "COPY_SUBTITLES",
+      "DELETE_AI_CHAT_SESSION",
+      "DELETE_NOTE_INFO",
+      "DELETE_STORAGE_DATA",
+      "DELETE_SUBTITLE_CONTENT",
+      "DOWNLOAD_SUBTITLES",
+      "SET_CHAPTER_INFO",
+      "SET_NOTE_INFO",
+      "SET_STORAGE_DATA",
+      "SET_SUBTITLE_CONTENT",
+      "SET_SUBTITLE_INFO",
+      "SET_VIDEO_INFO",
+      "SET_VID_INFO",
+      "SHOW_TOAST",
+      "UPDATE_AI_CHAT_SESSION",
+      "UPDATE_AUTH_STATE",
+      "UPDATE_BIND_TAB_ID",
+      "UPDATE_CURRENT_TIME",
+      "UPDATE_CURRENT_URL",
+      "UPDATE_DISPLAY",
+      "UPDATE_FOLD",
+      "UPDATE_PLAY_NOTE_STATUS"
+    ],
+    "ui_handler_count": 31,
+    "content_script_handlers": [
+      "ADJUST_VOLUME",
+      "APPLY_BILIBILI_WIDTH",
+      "CANCEL_BILIBILI_WIDTH_RESIZE",
+      "CHECK_BILIBILI_MODE",
+      "CS_CLEAR_VIDEO_DATA",
+      "CS_REFRESH_SUBTITLE_INFO",
+      "CS_REFRESH_VIDEO_INFO",
+      "CS_REFRESH_VID_INFO",
+      "CS_SET_CS_ID",
+      "DOWNLOAD_AUDIO",
+      "FIRST_PLAY_NOTE",
+      "FOLD",
+      "GET_CURRENT_URL",
+      "GET_DISPLAY",
+      "GET_VIDEO_STATUS",
+      "GET_VID_INFO",
+      "HIDE_TRANS",
+      "LAST_PLAY_NOTE",
+      "MOVE",
+      "NEXT_PLAY_NOTE",
+      "PLAY",
+      "PREVIEW_BILIBILI_WIDTH",
+      "PREV_PLAY_NOTE",
+      "REFRESH_CHAPTER_INFO",
+      "REFRESH_SUBTITLE_CONTENT",
+      "REFRESH_VIDEO_ELEMENT",
+      "SAVE_BILIBILI_BASE_WIDTHS",
+      "START_PLAY_NOTES",
+      "STOP_PLAY_NOTES",
+      "TOGGLE_DISPLAY",
+      "UPDATE_IFRAME_STYLE",
+      "UPDATE_PLAY_NOTES_MODE",
+      "UPDATE_TRANS_RESULT",
+      "WEBSITE_CONFIG_UPDATED"
+    ],
+    "content_script_handler_count": 34,
+    "all_handlers": [
+      "ADD_NOTE",
+      "ADD_SUBTITLE",
+      "ADD_TRANSLATE_TASKS",
+      "ADJUST_VOLUME",
+      "APPLY_BILIBILI_WIDTH",
+      "APP_GET_SUBTITLE_BAR_CHAPTER_STATE",
+      "APP_GET_SUBTITLE_BAR_STATE",
+      "APP_HEARTBEAT",
+      "APP_JUMP_TO_CHAPTER",
+      "APP_JUMP_TO_TIME",
+      "APP_NOTIFY_SUBTITLE_BAR_CHAPTER_STATE",
+      "APP_NOTIFY_SUBTITLE_BAR_HIDE",
+      "APP_REFRESH_VID_INFO",
+      "APP_SET_CS_ID",
+      "BACKUP_VIDEO_DATA",
+      "BAR_JUMP_TO_CHAPTER",
+      "BAR_JUMP_TO_TIME",
+      "BAR_SET_CHAPTER_STATE",
+      "BATCH_DELETE_NOTES",
+      "BILIBILI_MODE_CHANGED",
+      "CANCEL_BILIBILI_WIDTH_RESIZE",
+      "CANCEL_CHAT_REQUEST",
+      "CHECK_BILIBILI_MODE",
+      "CLEAR_VIDEO_DATA",
+      "CLONE_SUBTITLE",
+      "CLOSE_SIDE_PANEL",
+      "CLOSE_TAB",
+      "COPY_SUBTITLES",
+      "CREATE_CHAPTER_SESSION",
+      "CREATE_CHAT_SESSION",
+      "CREATE_FINETUNE_SESSION",
+      "CREATE_TRANSCRIPTION",
+      "CREATE_TRANSLATE_SESSION",
+      "CS_CLEAR_VIDEO_DATA",
+      "CS_REFRESH_SUBTITLE_INFO",
+      "CS_REFRESH_VIDEO_INFO",
+      "CS_REFRESH_VID_INFO",
+      "CS_REQUEST_UPDATE_CURRENT_TIME",
+      "CS_REQUEST_UPDATE_DISPLAY",
+      "CS_REQUEST_UPDATE_FOLD",
+      "CS_REQUEST_UPDATE_PLAY_NOTE_STATUS",
+      "CS_SET_CS_ID",
+      "DELETE_AI_CHAT_SESSION",
+      "DELETE_CHAPTER",
+      "DELETE_CHAPTER_SESSION",
+      "DELETE_CHAT_SESSION",
+      "DELETE_FINETUNE_SESSION",
+      "DELETE_NOTE",
+      "DELETE_NOTE_INFO",
+      "DELETE_NOTE_TAG",
+      "DELETE_STORAGE_DATA",
+      "DELETE_SUBTITLE",
+      "DELETE_SUBTITLE_CONTENT",
+      "DELETE_TRANSCRIPTION_SESSION",
+      "DELETE_TRANSLATE_SESSION",
+      "DOWNLOAD_AUDIO",
+      "DOWNLOAD_SUBTITLES",
+      "FETCH_AND_SUPPLEMENT_SUBTITLES",
+      "FIRST_PLAY_NOTE",
+      "FOLD",
+      "GET_CHAPTER_INFO",
+      "GET_CHAPTER_SESSION_BY_KEY",
+      "GET_CHAT_SESSION",
+      "GET_CHAT_SESSIONS_BY_TID_AND_VID",
+      "GET_CS_ID",
+      "GET_CURRENT_URL",
+      "GET_DISPLAY",
+      "GET_FINETUNE_SESSION",
+      "GET_FINETUNE_SESSION_BY_KEY",
+      "GET_NEXT_AVAILABLE_SUFFIX",
+      "GET_NOTE_INFO",
+      "GET_SUBTITLE_BAR_STATE",
+      "GET_SUBTITLE_CONTENT",
+      "GET_SUBTITLE_INFO",
+      "GET_TRANSCRIPTION_SESSION",
+      "GET_TRANSCRIPTION_SESSION_LOCAL",
+      "GET_TRANSLATE_SESSION",
+      "GET_TRANSLATE_SESSION_BY_KEY",
+      "GET_VIDEO_INFO",
+      "GET_VIDEO_STATUS",
+      "GET_VID_INFO",
+      "HIDE_TRANS",
+      "LAST_PLAY_NOTE",
+      "MOVE",
+      "NEXT_PLAY_NOTE",
+      "NOTIFY_SUBTITLE_BAR_HIDE",
+      "NOTIFY_SUBTITLE_BAR_LANGUAGE_CHANGED",
+      "OPEN_SIDE_PANEL",
+      "PAUSE_CHAPTER_SESSION",
+      "PAUSE_FINETUNE_SESSION",
+      "PAUSE_TRANSLATE_SESSION",
+      "PLAY",
+      "PREVIEW_BILIBILI_WIDTH",
+      "PREV_PLAY_NOTE",
+      "REFRESH_CHAPTER_INFO",
+      "REFRESH_SUBTITLE_CONTENT",
+      "REFRESH_SUBTITLE_INFO",
+      "REFRESH_TAB",
+      "REFRESH_VIDEO_ELEMENT",
+      "REFRESH_VIDEO_INFO",
+      "REFRESH_VID_INFO",
+      "RENAME_NOTE_TAG",
+      "REQUEST_MOUNT_SUBTITLE_BAR",
+      "REQUEST_TOGGLE_DISPLAY",
+      "RESTART_TRANSLATION",
+      "RESTORE_VIDEO_DATA",
+      "RESUME_CHAPTER_SESSION",
+      "RESUME_FINETUNE_SESSION",
+      "RESUME_TRANSLATE_SESSION",
+      "RETRY_FAILED_CHAPTER_TASKS",
+      "RETRY_FAILED_FINETUNE_TASKS",
+      "RETRY_FAILED_TRANSLATE_TASKS",
+      "RETRY_TRANSCRIPTION",
+      "SAVE_BILIBILI_BASE_WIDTHS",
+      "SAVE_SUBTITLE_BAR_CONFIG",
+      "SAVE_SUBTITLE_BAR_POSITION",
+      "SEND_CHAT_MESSAGE",
+      "SET_CHAPTER_INFO",
+      "SET_CS_ID",
+      "SET_NOTE_INFO",
+      "SET_STORAGE_DATA",
+      "SET_SUBTITLE_BAR_VISIBLE",
+      "SET_SUBTITLE_CONTENT",
+      "SET_SUBTITLE_INFO",
+      "SET_VIDEO_INFO",
+      "SET_VID_INFO",
+      "SHOW_FLAG",
+      "SHOW_TOAST",
+      "START_PLAY_NOTES",
+      "STOP_PLAY_NOTES",
+      "STORAGE_DELETE",
+      "STORAGE_GET",
+      "STORAGE_KEYS",
+      "STORAGE_REFRESH",
+      "STORAGE_SET",
+      "STORE_CHAPTER_INFO",
+      "STORE_SUBTITLE_CONTENT",
+      "STORE_VIDEO_INFO",
+      "TOGGLE_DISPLAY",
+      "TRACK_ANALYTICS_EVENT",
+      "TRANSLATE_CHAPTER",
+      "UPDATE_AI_CHAT_SESSION",
+      "UPDATE_AUTH_STATE",
+      "UPDATE_BIND_TAB_ID",
+      "UPDATE_CHAPTER_SELECTED",
+      "UPDATE_CHAT_SESSION_TITLE",
+      "UPDATE_CURRENT_TIME",
+      "UPDATE_CURRENT_URL",
+      "UPDATE_DISPLAY",
+      "UPDATE_FOLD",
+      "UPDATE_IFRAME_STYLE",
+      "UPDATE_NOTE",
+      "UPDATE_PLAY_NOTES_MODE",
+      "UPDATE_PLAY_NOTE_STATUS",
+      "UPDATE_SUBTITLE_SELECTED",
+      "UPDATE_TRANS_RESULT",
+      "UPLOAD_SUBTITLE",
+      "WEBSITE_CONFIG_UPDATED"
+    ],
+    "all_handler_count": 158,
+    "feature_domains": {
+      "ADD": [
+        "ADD_NOTE",
+        "ADD_SUBTITLE",
+        "ADD_TRANSLATE_TASKS"
+      ],
+      "ADJUST": [
+        "ADJUST_VOLUME"
+      ],
+      "APPLY": [
+        "APPLY_BILIBILI_WIDTH"
+      ],
+      "APP": [
+        "APP_GET_SUBTITLE_BAR_CHAPTER_STATE",
+        "APP_GET_SUBTITLE_BAR_STATE",
+        "APP_HEARTBEAT",
+        "APP_JUMP_TO_CHAPTER",
+        "APP_JUMP_TO_TIME",
+        "APP_NOTIFY_SUBTITLE_BAR_CHAPTER_STATE",
+        "APP_NOTIFY_SUBTITLE_BAR_HIDE",
+        "APP_REFRESH_VID_INFO",
+        "APP_SET_CS_ID"
+      ],
+      "BACKUP": [
+        "BACKUP_VIDEO_DATA"
+      ],
+      "BAR": [
+        "BAR_JUMP_TO_CHAPTER",
+        "BAR_JUMP_TO_TIME",
+        "BAR_SET_CHAPTER_STATE"
+      ],
+      "BATCH": [
+        "BATCH_DELETE_NOTES"
+      ],
+      "BILIBILI": [
+        "BILIBILI_MODE_CHANGED"
+      ],
+      "CANCEL": [
+        "CANCEL_BILIBILI_WIDTH_RESIZE",
+        "CANCEL_CHAT_REQUEST"
+      ],
+      "CHECK": [
+        "CHECK_BILIBILI_MODE"
+      ],
+      "CLEAR": [
+        "CLEAR_VIDEO_DATA"
+      ],
+      "CLONE": [
+        "CLONE_SUBTITLE"
+      ],
+      "CLOSE": [
+        "CLOSE_SIDE_PANEL",
+        "CLOSE_TAB"
+      ],
+      "COPY": [
+        "COPY_SUBTITLES"
+      ],
+      "CREATE": [
+        "CREATE_CHAPTER_SESSION",
+        "CREATE_CHAT_SESSION",
+        "CREATE_FINETUNE_SESSION",
+        "CREATE_TRANSCRIPTION",
+        "CREATE_TRANSLATE_SESSION"
+      ],
+      "CS": [
+        "CS_CLEAR_VIDEO_DATA",
+        "CS_REFRESH_SUBTITLE_INFO",
+        "CS_REFRESH_VIDEO_INFO",
+        "CS_REFRESH_VID_INFO",
+        "CS_REQUEST_UPDATE_CURRENT_TIME",
+        "CS_REQUEST_UPDATE_DISPLAY",
+        "CS_REQUEST_UPDATE_FOLD",
+        "CS_REQUEST_UPDATE_PLAY_NOTE_STATUS",
+        "CS_SET_CS_ID"
+      ],
+      "DELETE": [
+        "DELETE_AI_CHAT_SESSION",
+        "DELETE_CHAPTER",
+        "DELETE_CHAPTER_SESSION",
+        "DELETE_CHAT_SESSION",
+        "DELETE_FINETUNE_SESSION",
+        "DELETE_NOTE",
+        "DELETE_NOTE_INFO",
+        "DELETE_NOTE_TAG",
+        "DELETE_STORAGE_DATA",
+        "DELETE_SUBTITLE",
+        "DELETE_SUBTITLE_CONTENT",
+        "DELETE_TRANSCRIPTION_SESSION",
+        "DELETE_TRANSLATE_SESSION"
+      ],
+      "DOWNLOAD": [
+        "DOWNLOAD_AUDIO",
+        "DOWNLOAD_SUBTITLES"
+      ],
+      "FETCH": [
+        "FETCH_AND_SUPPLEMENT_SUBTITLES"
+      ],
+      "FIRST": [
+        "FIRST_PLAY_NOTE"
+      ],
+      "FOLD": [
+        "FOLD"
+      ],
+      "GET": [
+        "GET_CHAPTER_INFO",
+        "GET_CHAPTER_SESSION_BY_KEY",
+        "GET_CHAT_SESSION",
+        "GET_CHAT_SESSIONS_BY_TID_AND_VID",
+        "GET_CS_ID",
+        "GET_CURRENT_URL",
+        "GET_DISPLAY",
+        "GET_FINETUNE_SESSION",
+        "GET_FINETUNE_SESSION_BY_KEY",
+        "GET_NEXT_AVAILABLE_SUFFIX",
+        "GET_NOTE_INFO",
+        "GET_SUBTITLE_BAR_STATE",
+        "GET_SUBTITLE_CONTENT",
+        "GET_SUBTITLE_INFO",
+        "GET_TRANSCRIPTION_SESSION",
+        "GET_TRANSCRIPTION_SESSION_LOCAL",
+        "GET_TRANSLATE_SESSION",
+        "GET_TRANSLATE_SESSION_BY_KEY",
+        "GET_VIDEO_INFO",
+        "GET_VIDEO_STATUS",
+        "GET_VID_INFO"
+      ],
+      "HIDE": [
+        "HIDE_TRANS"
+      ],
+      "LAST": [
+        "LAST_PLAY_NOTE"
+      ],
+      "MOVE": [
+        "MOVE"
+      ],
+      "NEXT": [
+        "NEXT_PLAY_NOTE"
+      ],
+      "NOTIFY": [
+        "NOTIFY_SUBTITLE_BAR_HIDE",
+        "NOTIFY_SUBTITLE_BAR_LANGUAGE_CHANGED"
+      ],
+      "OPEN": [
+        "OPEN_SIDE_PANEL"
+      ],
+      "PAUSE": [
+        "PAUSE_CHAPTER_SESSION",
+        "PAUSE_FINETUNE_SESSION",
+        "PAUSE_TRANSLATE_SESSION"
+      ],
+      "PLAY": [
+        "PLAY"
+      ],
+      "PREVIEW": [
+        "PREVIEW_BILIBILI_WIDTH"
+      ],
+      "PREV": [
+        "PREV_PLAY_NOTE"
+      ],
+      "REFRESH": [
+        "REFRESH_CHAPTER_INFO",
+        "REFRESH_SUBTITLE_CONTENT",
+        "REFRESH_SUBTITLE_INFO",
+        "REFRESH_TAB",
+        "REFRESH_VIDEO_ELEMENT",
+        "REFRESH_VIDEO_INFO",
+        "REFRESH_VID_INFO"
+      ],
+      "RENAME": [
+        "RENAME_NOTE_TAG"
+      ],
+      "REQUEST": [
+        "REQUEST_MOUNT_SUBTITLE_BAR",
+        "REQUEST_TOGGLE_DISPLAY"
+      ],
+      "RESTART": [
+        "RESTART_TRANSLATION"
+      ],
+      "RESTORE": [
+        "RESTORE_VIDEO_DATA"
+      ],
+      "RESUME": [
+        "RESUME_CHAPTER_SESSION",
+        "RESUME_FINETUNE_SESSION",
+        "RESUME_TRANSLATE_SESSION"
+      ],
+      "RETRY": [
+        "RETRY_FAILED_CHAPTER_TASKS",
+        "RETRY_FAILED_FINETUNE_TASKS",
+        "RETRY_FAILED_TRANSLATE_TASKS",
+        "RETRY_TRANSCRIPTION"
+      ],
+      "SAVE": [
+        "SAVE_BILIBILI_BASE_WIDTHS",
+        "SAVE_SUBTITLE_BAR_CONFIG",
+        "SAVE_SUBTITLE_BAR_POSITION"
+      ],
+      "SEND": [
+        "SEND_CHAT_MESSAGE"
+      ],
+      "SET": [
+        "SET_CHAPTER_INFO",
+        "SET_CS_ID",
+        "SET_NOTE_INFO",
+        "SET_STORAGE_DATA",
+        "SET_SUBTITLE_BAR_VISIBLE",
+        "SET_SUBTITLE_CONTENT",
+        "SET_SUBTITLE_INFO",
+        "SET_VIDEO_INFO",
+        "SET_VID_INFO"
+      ],
+      "SHOW": [
+        "SHOW_FLAG",
+        "SHOW_TOAST"
+      ],
+      "START": [
+        "START_PLAY_NOTES"
+      ],
+      "STOP": [
+        "STOP_PLAY_NOTES"
+      ],
+      "STORAGE": [
+        "STORAGE_DELETE",
+        "STORAGE_GET",
+        "STORAGE_KEYS",
+        "STORAGE_REFRESH",
+        "STORAGE_SET"
+      ],
+      "STORE": [
+        "STORE_CHAPTER_INFO",
+        "STORE_SUBTITLE_CONTENT",
+        "STORE_VIDEO_INFO"
+      ],
+      "TOGGLE": [
+        "TOGGLE_DISPLAY"
+      ],
+      "TRACK": [
+        "TRACK_ANALYTICS_EVENT"
+      ],
+      "TRANSLATE": [
+        "TRANSLATE_CHAPTER"
+      ],
+      "UPDATE": [
+        "UPDATE_AI_CHAT_SESSION",
+        "UPDATE_AUTH_STATE",
+        "UPDATE_BIND_TAB_ID",
+        "UPDATE_CHAPTER_SELECTED",
+        "UPDATE_CHAT_SESSION_TITLE",
+        "UPDATE_CURRENT_TIME",
+        "UPDATE_CURRENT_URL",
+        "UPDATE_DISPLAY",
+        "UPDATE_FOLD",
+        "UPDATE_IFRAME_STYLE",
+        "UPDATE_NOTE",
+        "UPDATE_PLAY_NOTES_MODE",
+        "UPDATE_PLAY_NOTE_STATUS",
+        "UPDATE_SUBTITLE_SELECTED",
+        "UPDATE_TRANS_RESULT"
+      ],
+      "UPLOAD": [
+        "UPLOAD_SUBTITLE"
+      ],
+      "WEBSITE": [
+        "WEBSITE_CONFIG_UPDATED"
+      ]
+    },
+    "tab_actions": [
+      "vcaptions_assistant",
+      "vcaptions_log_config",
+      "vcaptions_mount",
+      "vcaptions_subtitle_bar_display",
+      "vcaptions_subtitle_bar_language_changed",
+      "vcaptions_subtitle_bar_mount",
+      "vcaptions_toggle_mount",
+      "vcaptions_unmount"
+    ],
+    "app_commands": [
+      "APP_GET_SUBTITLE_BAR_CHAPTER_STATE",
+      "APP_GET_SUBTITLE_BAR_STATE",
+      "APP_HEARTBEAT",
+      "APP_JUMP_TO_CHAPTER",
+      "APP_JUMP_TO_TIME",
+      "APP_NOTIFY_SUBTITLE_BAR_CHAPTER_STATE",
+      "APP_NOTIFY_SUBTITLE_BAR_HIDE",
+      "APP_REFRESH_VID_INFO",
+      "APP_SET_CS_ID",
+      "BAR_JUMP_TO_TIME",
+      "BAR_SET_CHAPTER_STATE"
+    ],
+    "window_postmessage_sources": []
+  },
+  "storage_keys": [
+    "analytics_identify_throttle",
+    "analytics_pending_event",
+    "chapterInfo",
+    "chatSession",
+    "noteInfo",
+    "posthog_distinct_id",
+    "subtitleContentInfo",
+    "subtitleInfo",
+    "vcaptions-auth-refresh-token",
+    "vcaptions-auth-token",
+    "vcaptions-auth-user",
+    "vcaptions-env",
+    "vcaptions-global-settings",
+    "vcaptions-temp",
+    "vcaptions_log_config",
+    "videoInfo"
+  ],
+  "endpoints": [
+    "/assistants",
+    "/audio/speech",
+    "/audio/transcriptions",
+    "/audio/translations",
+    "/batches",
+    "/chat/completions",
+    "/chatkit/sessions",
+    "/chatkit/threads",
+    "/completions",
+    "/containers",
+    "/conversations",
+    "/embed/",
+    "/embeddings",
+    "/evals",
+    "/files",
+    "/fine_tuning/alpha/graders/run",
+    "/fine_tuning/alpha/graders/validate",
+    "/fine_tuning/jobs",
+    "/fulfilled",
+    "/images/edits",
+    "/images/generations",
+    "/images/variations",
+    "/models",
+    "/moderations",
+    "/options",
+    "/pending",
+    "/realtime/client_secrets",
+    "/realtime/sessions",
+    "/realtime/transcription_sessions",
+    "/rejected",
+    "/responses",
+    "/responses/compact",
+    "/responses/input_tokens",
+    "/skills",
+    "/threads",
+    "/threads/runs",
+    "/uploads",
+    "/vector_stores",
+    "/videos",
+    "/videos/characters",
+    "/videos/edits",
+    "/videos/extensions",
+    "/youtubei/v1/next",
+    "http://www.w3.org/1998/Math/MathML",
+    "http://www.w3.org/1999/xlink",
+    "http://www.w3.org/2000/svg",
+    "http://www.w3.org/XML/1998/namespace",
+    "https://*.youtube.com/*",
+    "https://api.deepseek.com",
+    "https://api.niutrans.com/v2/text/translate/array",
+    "https://api.openai.com/v1",
+    "https://api.vcaptions.com/api/v1",
+    "https://api.vcaptions.com/api/v1/settings",
+    "https://app.posthog.com",
+    "https://auth.openai.com/oauth/token",
+    "https://chromewebstore.google.com/detail/bciglihaegkdhoogebcdblfhppoilclp",
+    "https://console.cloud.google.com/",
+    "https://generativelanguage.googleapis.com",
+    "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "https://github.com/indutny/elliptic",
+    "https://github.com/indutny/elliptic/issues",
+    "https://github.com/syntax-tree/hast-util-to-jsx-runtime",
+    "https://microsoftedge.microsoft.com/addons/detail/lignnlhlpiefmcjkdkmfjdckhlaiajan",
+    "https://niutrans.com/",
+    "https://react.dev/errors/",
+    "https://www.bilibili.com",
+    "https://www.vcaptions.com",
+    "https://www.youtube.com"
+  ],
+  "absolute_endpoints": [
+    "http://www.w3.org/1998/Math/MathML",
+    "http://www.w3.org/1999/xlink",
+    "http://www.w3.org/2000/svg",
+    "http://www.w3.org/XML/1998/namespace",
+    "https://*.youtube.com/*",
+    "https://api.deepseek.com",
+    "https://api.niutrans.com/v2/text/translate/array",
+    "https://api.openai.com/v1",
+    "https://api.vcaptions.com/api/v1",
+    "https://api.vcaptions.com/api/v1/settings",
+    "https://app.posthog.com",
+    "https://auth.openai.com/oauth/token",
+    "https://chromewebstore.google.com/detail/bciglihaegkdhoogebcdblfhppoilclp",
+    "https://console.cloud.google.com/",
+    "https://generativelanguage.googleapis.com",
+    "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "https://github.com/indutny/elliptic",
+    "https://github.com/indutny/elliptic/issues",
+    "https://github.com/syntax-tree/hast-util-to-jsx-runtime",
+    "https://microsoftedge.microsoft.com/addons/detail/lignnlhlpiefmcjkdkmfjdckhlaiajan",
+    "https://niutrans.com/",
+    "https://react.dev/errors/",
+    "https://www.bilibili.com",
+    "https://www.vcaptions.com",
+    "https://www.youtube.com"
+  ],
+  "relative_sdk_paths": [
+    "/assistants",
+    "/audio/speech",
+    "/audio/transcriptions",
+    "/audio/translations",
+    "/batches",
+    "/chat/completions",
+    "/chatkit/sessions",
+    "/chatkit/threads",
+    "/completions",
+    "/containers",
+    "/conversations",
+    "/embed/",
+    "/embeddings",
+    "/evals",
+    "/files",
+    "/fine_tuning/alpha/graders/run",
+    "/fine_tuning/alpha/graders/validate",
+    "/fine_tuning/jobs",
+    "/fulfilled",
+    "/images/edits",
+    "/images/generations",
+    "/images/variations",
+    "/models",
+    "/moderations",
+    "/options",
+    "/pending",
+    "/realtime/client_secrets",
+    "/realtime/sessions",
+    "/realtime/transcription_sessions",
+    "/rejected",
+    "/responses",
+    "/responses/compact",
+    "/responses/input_tokens",
+    "/skills",
+    "/threads",
+    "/threads/runs",
+    "/uploads",
+    "/vector_stores",
+    "/videos",
+    "/videos/characters",
+    "/videos/edits",
+    "/videos/extensions",
+    "/youtubei/v1/next"
+  ],
+  "chrome_apis": [
+    "runtime.id",
+    "runtime.lastError",
+    "runtime.onConnect",
+    "runtime.onMessage",
+    "runtime.onMessageExternal",
+    "scripting.registerContentScripts"
+  ],
+  "chrome_api_call_site_count": 29,
+  "libraries": [
+    {
+      "name": "react",
+      "found_in": [
+        "background",
+        "content_app",
+        "content_subtitle_bar",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "react-dom",
+      "found_in": [
+        "content_app",
+        "content_subtitle_bar",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "scheduler",
+      "found_in": [
+        "content_app",
+        "content_subtitle_bar",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "webextension-polyfill",
+      "found_in": [
+        "background",
+        "content_main",
+        "content_iframe",
+        "content_youtube",
+        "content_webapp",
+        "content_app",
+        "content_subtitle_bar",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "buffer",
+      "found_in": [
+        "background",
+        "content_app",
+        "sidepanel",
+        "tab"
+      ]
+    },
+    {
+      "name": "base64-js",
+      "found_in": [
+        "background",
+        "content_app",
+        "sidepanel",
+        "tab"
+      ]
+    },
+    {
+      "name": "use-sync-external-store",
+      "found_in": [
+        "background",
+        "content_app",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "react-toastify",
+      "found_in": [
+        "content_app",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "i18next",
+      "found_in": [
+        "content_app",
+        "content_subtitle_bar",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "immer",
+      "found_in": [
+        "background",
+        "content_app",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "lodash",
+      "found_in": [
+        "background",
+        "content_iframe",
+        "content_app",
+        "content_subtitle_bar",
+        "sidepanel",
+        "options",
+        "tab"
+      ]
+    },
+    {
+      "name": "openai",
+      "found_in": [
+        "background",
+        "options"
+      ]
+    },
+    {
+      "name": "posthog",
+      "found_in": [
+        "background"
+      ]
+    },
+    {
+      "name": "pinyin",
+      "found_in": [
+        "content_app",
+        "sidepanel",
+        "tab"
+      ]
+    },
+    {
+      "name": "idb",
+      "found_in": [
+        "background"
+      ]
+    },
+    {
+      "name": "virtuoso",
+      "found_in": [
+        "content_app",
+        "sidepanel",
+        "tab"
+      ]
+    },
+    {
+      "name": "daisyui",
+      "found_in": [
+        "content_app",
+        "content_subtitle_bar"
+      ]
+    }
+  ]
+}

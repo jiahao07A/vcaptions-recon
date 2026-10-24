@@ -1,0 +1,2 @@
+/* parcel module id: 1nubv | bundle: IFrameCS.26275720.js | bytes: 180 | separator-after: "," */
+g.register("1nubv",function(e,t){i(e.exports,"default",()=>n);var r=g("9eGwG"),s="object"==typeof self&&self&&self.Object===Object&&self,n=r.default||s||Function("return this")()})
