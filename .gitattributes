@@ -1,8 +1,13 @@
-﻿# Files under src/bundles/ are byte-exact Parcel output. Any end-of-line or
+# Files under src/bundles/ are byte-exact Parcel output. Any end-of-line or
 # encoding normalisation would change their bytes and break `npm run verify`,
-# which compares against the recorded digests. Mark them binary so git stores
-# and checks them out verbatim.
+# which compares against the digests recorded in src/bundles/index.json.
 src/bundles/** -text -diff
 
-# The same applies to the recorded module manifests and the baseline archive.
+# The recorded manifests and any downloaded archive are binary as well.
 *.crx binary
+*.zip binary
+
+# The baseline is intentionally absent from this repository; it is restored via
+# `npm run fetch-baseline`. Listing it here keeps git from ever staging it if a
+# local copy exists.
+assets/baseline/** -text -diff
